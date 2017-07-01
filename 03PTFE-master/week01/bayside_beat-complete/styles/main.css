@@ -1,0 +1,133 @@
+@charset "utf-8";
+body    {
+    margin: 0px;
+    color: #151515;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #EFF5F8;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-width: 740px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero {
+    position: relative;
+    clear: left;
+}
+#hero article {
+    width: 36%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 40px;
+    right: 43px;
+    background-color: #FAA356;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+#hero h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+
+
+
+#hero img {
+    max-width: 100%;
+}
+h1, h2 {
+    color: #3399CC;
+    font-style: normal;
+    font-weight: 600;
+    font-family: source-sans-pro;
+}
+h1 {
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    clear: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2%;
+    background-color: #43A6CB;
+    color: #FFFFFF;
+}
+
+figure {
+    width: 420px;
+}
+figure img {
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*position styles*/
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.floatleft {
+    margin-right: 10px;
+    float: left;
+}
+.floatright {
+    margin-left: 10px;
+    float: right;
+}
+/* link styles*/
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color: #FF6600;
+}
+a:visited {
+    color: #FF944C;
+}
+a:hover, a:active, a:focus {
+    color: #7F3300;
+    text-decoration: underline;
+}
+/*nav styles*/
+nav.primary-nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav.primary-nav a {
+    width: 20%;
+    display: block;
+    float: left;
+    background-color: #4D4D4D;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+nav.primary-nav a:hover, nav.primary-nav a:active, nav.primary-nav a:focus{
+    text-decoration: none;
+    background-color: #43A6CB;
+}
+article, aside, figure, footer, header, nav {
+    display: block;
+}
