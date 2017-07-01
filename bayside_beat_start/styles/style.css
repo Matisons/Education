@@ -1,0 +1,65 @@
+/*styles for bayside beat*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 100%;
+    background-color:lightskyblue;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header h1{
+    font-family: 'Bellefair', serif;
+    font-size: 4.5em;
+    font-weight: 700;
+    color: royalblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em; 
+    padding-bottom: 1em;
+}
+
+.primary-nav{
+    height: 2.5em;
+    background-color: lightslategray;
+    
+}
+
+.primary-nav ul{
+    list-style: none;
+}
+
+.primary-nav ul li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.primary-nav ul li a{
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.primary-nav ul li a:hover{
+    background-color: royalblue;
+}
+
+h2{
+    color: royalblue;
+}
+
+footer{
+    background-color: lightslategray;
+    color:black;
+}
